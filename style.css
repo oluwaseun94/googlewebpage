@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+  .container{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    display: block;
+    transform: translate(-50%,-50%);
+    font-size: 2em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h2 {
+    display: flex;
+    transform: translate(10%, -20%);
+    font-size: 3em;
+    font-weight: 100%;
+}
+
+.first{
+    color: blue;
+}
+.second{
+    color: red;
+}
+.third{
+    color: orange;
+}
+.fourth{
+    color: blue;
+}
+.fifth{
+    color: green;
+}
+.sixth{
+    color: red;
+} 
+
+.search {
+    width: 500px;
+    height: 45px;
+    position: absolute;
+    transform: translate(-20%, 50%);
+}
+input[type='text']{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #d5d4d4;
+    left: 0;
+    border-radius: 50px;
+    padding: 0 40px 0 45px;
+    outline: none;
+    box-shadow: 0 2px 0px --7px #000;
+    font-size: 16px;
+    font-family: noto sans-serif;
+
+}
+
+.searchicon{
+    position: absolute;
+    z-index: 1;
+    font-size: 18px;
+    top: 13px;
+    left: 18px;
+    color: gray;
+}
+
+.mic{
+    position: absolute;
+    width: 13px;
+    right: -65px;
+    top: 13px;
+    font-size: 18px;
+
+}
+.option{
+    position: relative; 
+    top: 80px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+input[type='button']{
+    background: #ebe8e8;
+    border: none;
+    padding:10px 20px;
+    margin: 10px;
+    color:#9b9494e0;
+    border-radius: 5px;
+    outline: none;
+    
+}
+input[type='button']:hover{
+    background: #ede8e8;
+    color: #000;
+    box-shadow: 0 0 2px #000;
+    cursor: pointer;
+}
+nav{
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+.aman{
+    width: 30px;
+    border-radius: 50%;
+    margin: 10px 20px 0 0;
+}
+.navig{
+    color: #444;
+    text-decoration: none;
+    top: -12px;
+    position: relative;
+    margin: 5px;
+
+}
+.navig:hover{
+    text-decoration: underline;
+}
+.icon-app{
+    position: relative;
+    margin: 10px;
+    top: -12px;
+    color: #555;
+}
